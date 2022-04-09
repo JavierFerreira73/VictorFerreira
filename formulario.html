@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+  />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="./imagenes/logo.png" alt="Logo">
+            </a>
+        </div>
+    
+        <label for="menu" class="burgermenu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu">
+    
+        <nav class="navegador"> 
+            <label for="menu" class="cerrarmenu">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </label>
+            <ul>
+                <li><a class="link" href="index.html">Inicio</a></li>
+                <li><a class="link" href="formulario.html">Formulario</a></li>
+                <li><a class="link" href="lugares.html">Lugares</a></li>
+                <li><a class="link" href="contacto.html">Contacto</a></li>
+                <li><a class="link" href="quienesomos.html">Quienes Somos</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <main class="contenedorform">
+        <h1>Dejanos tus datos</h1>
+       
+         <div class="imagenform">
+            <img src="./imagenes/imagen4.jpg" alt="Formulario">
+         </div>
+    
+
+
+    <form class="formulario" action="datos/" enctype="" method="">
+          <h2>Rellena los espacios que nosotros te llamamos</h2>
+                <input type="name" name="nombre" placeholder="Nombre y Apellido" required>
+                <input type="number" name="age" placeholder="Edad" required>
+                <input type="tel" name="phone" placeholder="telefono" required>
+                <input type="email" name="email" placeholder="Ingresa tu email" required>
+                <textarea name="message" placeholder="Dejanos un mensaje" cols="20" rows="7"></textarea>
+
+                
+            <div class="boton">
+                <button type="reset">Limpiar</button>
+                <button type="submit">Enviar</button>
+            </div>
+            </select>
+        
+
+    </form>
+    </main>
+    
+</body>
+<footer>
+    <div class="iconfooter">
+        <a href="https//www.facebook.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https//www.instagram.com"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+</footer>
+</html>
