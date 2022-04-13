@@ -36,7 +36,7 @@ header {
     grid-area: header;
 }
 
-header div.logo {
+.logo {
   width: 3rem;
   height: 3rem;
    }
