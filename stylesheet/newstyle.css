@@ -6,6 +6,7 @@
     border-radius: 50%;
      }
 
+
 /* INDEX */
      /* Carousel */
       @media screen and (min-width: 768px) {
@@ -53,3 +54,9 @@
         }
          }
   /* FIN UBICACIONES */    
+
+  /* Contacto */
+  div p a {
+    text-decoration: none;
+
+  }

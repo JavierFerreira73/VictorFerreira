@@ -45,22 +45,59 @@
  </nav>
 <!-- FIN HEADER -->
 
-    <main class="main_redes">
-            
+<!-- BODY -->
+
+<!-- CAROUSEL -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../imagenes/inicio2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../imagenes/inicio3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../imagenes/inicio1.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- MAIN -->
+
+  <div class="container">
+        <div class="text-center p-2">  
         <h2>Nos podes encontrar en nuestras Redes</h2>
-        
+        </div>  
 
-        <div class="imagen_redes">
-            <img  src="../imagenes/imagen3.jpg" alt="Contacto img">
-        </div>
+        <hr class="featurette-divider">
 
-        <div class="redes">
+        <div class="row">
+          
+          <div class="col-lg 6 text-center fs-4">
             <p>Seguinos en nuestro <a class="link" href="https//www.facebook.com">Facebook</a> </p>
             <p>Seguinos en nuestro  <a class="link" href="https//www.instagram.com">Instagram</a></p>
             <p> Tambien podes comunicarte con nosotros via <a class="link" href="https://api.whatsapp.com/send?phone=1111111111">WhatsApp</a></p>
             <p> O mandanos un Email a: <a class="link" href="mailto:aaaa@mail.com">aaaaaa@mail.com</a></p>
+          </div>
+          
+          <div class="col-lg-6">
+              <img class="img-fluid" src="../imagenes/imagen3.jpg" alt="Contacto img">
+          </div>
         </div>
-    </main>
+
+  </div>
 
     <!--  Bootstrap Scrips--> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
