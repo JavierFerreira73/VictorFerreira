@@ -1,0 +1,40 @@
+main .contenedorform {
+    min-height: 90vh;
+    display: grid;
+    @include centrar;
+    h1{
+      text-align: center;
+  }
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  @include centrar;
+
+  input {
+    height: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color:map-get($colores, secundario );
+    border-style: double;
+    }
+    
+    textarea {
+      padding: 1rem;
+        margin-bottom: 1rem;
+        background-color: map-get($colores, secundario ); 
+        resize: none;
+        border-style: none;
+       
+    }
+    .boton button {
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        text-transform: uppercase;
+        background-color: map-get($colores, secundario );
+        
+
+    }
+}

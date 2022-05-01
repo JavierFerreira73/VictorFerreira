@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 .logo {
   width: 4rem;
   height: 4rem;
@@ -5,18 +10,20 @@
   border-radius: 50%; }
 
 body {
-  background-color: #F2D0A7; }
+  background-color: #fffaf2; }
 
-h1 {
-  color: #260101; }
-
-h2 {
-  color: #260101; }
+h1, h2 {
+  color: #132618; }
 
 p {
-  color: #400101; }
+  color: #82877e; }
 
-/* INDEX */
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
 /* Carousel */
 @media screen and (min-width: 768px) {
   .carousel-item {
@@ -39,31 +46,18 @@ p {
   .img-fluid {
     margin: 10px; } }
 
-/* fin imagen index */
-/* UBICACIONES */
-ul {
-  list-style: none; }
-
 @media screen and (min-width: 460px) {
   ul div iframe {
     width: 400px;
     height: 300px; } }
 
-/* FIN UBICACIONES */
-/* Contacto */
-div p a {
-  text-decoration: none; }
-
-/* MAIN FORMULARIO */
 main .contenedorform {
   min-height: 90vh;
   display: grid;
   justify-content: center;
   align-items: center; }
-
-.contenedorform h1 {
-  text-align: center;
-  color: #260101; }
+  main .contenedorform h1, main .contenedorform h2 {
+    text-align: center; }
 
 .formulario {
   display: flex;
@@ -74,16 +68,17 @@ main .contenedorform {
     height: 1rem;
     padding: 1rem;
     margin-bottom: 1rem;
-    background-color: #F2622E;
+    background-color: #4effab;
     border-style: double; }
   .formulario textarea {
     padding: 1rem;
-    resize: none;
     margin-bottom: 1rem;
-    background-color: #F2622E; }
+    background-color: #4effab;
+    resize: none;
+    border-style: none; }
   .formulario .boton button {
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-transform: uppercase;
-    background-color: #F2622E; }
+    background-color: #4effab; }

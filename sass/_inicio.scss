@@ -1,0 +1,27 @@
+/* Carousel */
+@media screen and (min-width: $mobile) {
+    .carousel-item {
+        height: 32rem;
+  
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          min-width: 100%;
+          height: 32rem;
+        }
+    }
+  }
+  /* Fin carousel */
+  
+              /* Imagen index */
+  .img-fluid:hover {
+    transform: scale(0.95);
+    position: relative;
+    transition: transform 0.5s;
+  }
+  @media (max-width: $desktop) {
+    .img-fluid {
+      margin: 10px;
+  }
+  }

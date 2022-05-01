@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  background-color: $colorlogo;
+  border-radius: 50%;
+   }
+
+  body {
+    background-color: map-get($colores, fondo);
+  }
+
+  h1 {
+    color: map-get($colores, titulo );
+  }
+
+  h2 {
+    @extend h1;
+  }
+
+  p {
+    color: map-get($colores, letra );
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
